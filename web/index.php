@@ -61,7 +61,7 @@ $app->get('/insertName/', function() use($app) {
   //  $names[] = $row;
   //}
 
-  return include("/views/insertName.php");
+  return include("views/insertName.php");
   //return $app['twig']->render('database.twig', array(
   //  'names' => $names
   //));
